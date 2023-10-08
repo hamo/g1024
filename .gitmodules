@@ -1,3 +1,6 @@
 [submodule "zkWasm-C"]
 	path = zkWasm-C
-	url = git@github.com:DelphinusLab/zkWasm-C.git
+	url = https://github.com/DelphinusLab/zkWasm-C.git
+[submodule "zkWasm-rust"]
+	path = zkWasm-rust
+	url = https://github.com/DelphinusLab/zkWasm-rust.git
