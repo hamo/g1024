@@ -2,13 +2,6 @@ use wasm_bindgen::prelude::*;
 use zkwasm_rust_sdk::{wasm_input, require};
 use bytemuck::cast_slice;
 
-
-#[wasm_bindgen]
-pub unsafe fn greet(name: &str) {
-    wasm_input(1);
-    require(true);
-}
-
 static mut BOARD: [u32; 16] = [
     1,0,1,0,
     1,1,0,0,

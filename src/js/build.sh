@@ -1,3 +1,3 @@
 #!/bin/sh
 
-wasm-pack build -t web
+wasm-pack build --release
